@@ -14,3 +14,8 @@ During the class, I have learneed about different infinities
 ``` java
 integer.MAX_VALUE
 double.MAX_VALUE + 1;
+```
+**NOTE**
+
+use *JSHELL* to experiment with Java
+
