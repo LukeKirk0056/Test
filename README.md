@@ -6,8 +6,8 @@
 
 ### Remember that constants should be capitalized
 ```java
-final int BIG = 69;
-final int LITTLE = 69,696;
+final int BIG = 67;
+final int LITTLE = 67,351;
 ```
 During the class, I have learneed about different infinities
 
