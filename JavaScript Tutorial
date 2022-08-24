@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+  <p>Before the script...</p>
+  <script>
+    alert( 'Hello, world!' ); // JavaScript programs can be inserted almost anywhere into an HTML Document using the <script>
+  </script>
+  <p>...After the script.</p>
+</body>
+</html>
+
+External Scripts
+<script src="/path/to/script.js"></script>
+
+Attach multiple Scripts
+<script src="/js/script1.js"></script>
+<script src="/js/script2.js"></script>
+
+Semicolons are not always madatory but using them at end of each statement is best practice
+
+// lines can be used for singular line or /* and */ can be used for multiple line code comments
+
+to create a variable in js use the let var 
+  ie 
+  let message = 'Hello World';
+  
+  let user = 'John';
+  let age = 6
+  
+  age (input)
+  6 (output)
+  
+  JS is dynamically-typed and does not require constraints 
+    let myNum = 42;
+    myNum = "forty-two";
+    
+    this name must contain only letters digits or the symbols $ and _
+    
+    to declare a constant (unchaning variable, use const instead of let
+    const myInterestRate = '.325';
+    
+    const COLOR_RED = '#FF0000'
+    
+    use human-readable names like userName or shoppingCart
+      still use names that are descriptive and concise
+      
+      null vs undefined; you can assign a value as NULL but if it is assigned nothing it is undefined
+      
+      type of returns the type of the object
+      ... value ending in n returns a big int -> typeof 10n
+      
+      convert number to string
+      str = String(1); //"1"
+      num = Number("1"); //1
+      num = Number(true)
+      
+      strong concatenation by using + in JS
+        let test = '1' + 2 + 3;
+        test (input)
+        123(output)
+        
+     console.debug("msg");
+     console.error("error");
+     console.msg
+     
+     javascript can only use pass by value
+     if want to pass by reference must use the objects 
+     
+     let sample =[1,2,3]
+     sample[3] = 4
+     sample[10] = 10
+     sample (input)
+     (11) [1, 2, 3, 4, empty × 6, 10] (output)
