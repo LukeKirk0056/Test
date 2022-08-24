@@ -1,3 +1,5 @@
+``` HTML
+
 <!DOCTYPE HTML>
 <html>
 <body>
@@ -8,7 +10,9 @@
   <p>...After the script.</p>
 </body>
 </html>
+```
 
+``` js
 External Scripts
 <script src="/path/to/script.js"></script>
 
@@ -29,7 +33,7 @@ to create a variable in js use the let var
   
   age (input)
   6 (output)
-  
+  ```
   JS is dynamically-typed and does not require constraints 
     let myNum = 42;
     myNum = "forty-two";
